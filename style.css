@@ -1,0 +1,98 @@
+*{
+    padding:0;
+    margin:0;
+    /* background-image: url(wallpaper.jpg); */
+}
+body{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/1017/461/97/depth-of-field-lake-water-rain-wallpaper-preview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#top{
+    font-size: 25px;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    flex:50%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+nav , nav ol{
+    background-color: powderblue;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+}
+ol{
+    /* margin-left:40%; */
+    justify-content: right;
+    flex:50%;
+}
+
+.ele{
+    color: blue;
+    padding: 20px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    justify-content: center;
+}
+.ele:hover{
+    font-weight: 600;
+    cursor: pointer;
+    /* background-color: #666666; */
+}
+h1{
+    text-align: center;
+    margin-top:20%;
+    text-shadow: 2px 2px powderblue;
+
+}
+h3{
+    margin-top: 20px;
+    text-align: center;
+    font-size:25px;
+    color:rgb(53, 242, 255);
+    text-shadow: 0px 0px 10px #000000;
+}
+#contact{
+    background-color: powderblue;
+    position: fixed;
+    padding:10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;  
+}
+#contact div{
+    text-align: center;
+}
+
+@media (max-width:715px){
+    body{
+        background-image: url(https://images.unsplash.com/photo-1638283561935-358db02189ba?q=80&w=460&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    }
+    nav{
+        display:block;
+        background-color: rgb(65, 211, 167);
+    }
+    #top{
+        color:black;
+        display:block;
+        text-align: center; 
+        font-size: 30px;
+    }
+    nav ol{
+        justify-content: center;
+        background-color: rgb(65, 211, 167);
+
+    }
+    .ele{
+        padding:10px;
+    }
+    h3{
+        font-size: 22px;
+        color:rgb(174, 238, 219);
+    }
+    li a{
+        color:black;
+    }
+}
